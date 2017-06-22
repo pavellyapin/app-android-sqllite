@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Material Login Example</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- first.xml -->
+    <string name="first_title">First</string>
+    <string name="first_description">Welcome.\nThis is the very first page (Home) page</string>
+
+    <!-- interstitial_ad.xml -->
+    <string name="interstitialad_title">Interstitial Ad</string>
+    <string name="interstitialad_description">This is an interstitial ad\nNormally a full page image or interactive view</string>
+
+    <!-- Content -->
+    <string name="content_title">Content</string>
+    <string name="content_description">Content page with some complex UI and data</string>
+    <string name="content_ad">Ad</string>
+
+
+
+</resources>

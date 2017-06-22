@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Regular cell which shows some data from a store/model -->
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_margin="10dp"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:background="#f2ffffff"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="1">
+
+
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="230dp"
+			android:layout_height="wrap_content">
+			<EditText android:id="@+id/noteText"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="textCapWords"
+				android:textColor="@color/black"
+				android:hint="TO_DO"/>
+		</android.support.design.widget.TextInputLayout>
+
+		<Button
+			android:id="@+id/addnote"
+			android:layout_width="67dp"
+			android:layout_height="59dp"
+			android:text="Save" />
+
+
+	</LinearLayout>
+</android.support.v7.widget.CardView>

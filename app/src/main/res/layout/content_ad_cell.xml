@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Regular cell which shows some data from a store/model -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_marginBottom="10dp"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:text="@string/content_ad"
+		android:textSize="4sp"
+		android:textColor="#cccccc"
+		android:layout_marginStart="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<!-- Banner ads are always 300x50dp or 320x50dp height - see AdMob or any other ad library for reference -->
+	<FrameLayout
+		android:background="#eeeeee"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="320dp"
+		android:layout_height="50dp"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="database_helper_name">contacts.sqlite</string>
+    <integer name="database_helper_version">2</integer>
+
+    <!-- News -->
+    <integer name="news_rotate_every">10000</integer>
+    <integer name="news_update_every">600000</integer>
+    <string name="news_url">http://www.huffingtonpost.ca/feeds/verticals/canada-politics/news.xml</string>
+    <integer name="news_number_if_items">10</integer>
+
+    <!-- AudioService -->
+    <string name="audioservice_url">http://tor680.akacast.akamaistream.net/7/941/86884/v1/rogers.akacast.akamaistream.net/tor680</string>
+
+
+</resources>
